@@ -1,2 +1,2 @@
-# borauyumazturk.github.io
+# bora-uyumazturk.github.io
 personal webpage
