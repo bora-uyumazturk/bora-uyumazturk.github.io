@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script type="text/javascript" async
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-    <link  href="assets/latex.css" rel="stylesheet">
-    <meta charset="utf-8">
-    <title>Bora Uyumazturk’s Homepage</title>
-  </head>
+    <head>
+        <title>Bora Uyumazturk's Homepage</title>
+   </head>
 
-  <body>
-    <header class= "header"><h1>Bora Uyumazturk</h1></header>
-    <div class="sidenav">
-      <h4><a href="index.html">Home</a></h4>
-      <h4><a href="assets/Bora_resume.pdf">CV</a></h4>
-      <h4><a href="research.html">Research</a></h4>
-    </div>
+    <body>
+        <div style="max-width:900px; word-wrap:break-word; margin-left:5px;">
 
-    <div class="container main">
-      <p style="margin-bottom: 20px"><img src="assets/headshot.jpg" width="200"
-        style="float: left; margin: 4px 10px 0px 0px; border: 1px solid #000000;">
-        I am a Masters student in the <a
-        href="https://cs.stanford.edu/" target="_blank">computer science
-        department at Stanford</a>. In June 2019, I completed my Bacherlor's
-        degree in the <a href="https://mathematics.stanford.edu/" target="_blank"
-        >mathematics department at Stanford</a>.</p>
+        <p>
+        <img src="assets/bora_pic.jpeg" width=250" align=left style="margin-right:15px;" border="1">
+        <font face="Helvetica">
+        <h1> Bora Uyumazturk </h1>
+        
+        I am currently a machine learning engineer at <a href="https://viaduct.ai" target="_blank">viaduct.ai</a>, a venture-backed startup providing machine learning solutions for connected vehicles. Before that, I worked at <a href="https://deeplearning.ai">deeplearning.ai</a> as the head teaching assistant for the <a href="https://www.coursera.org/specializations/ai-for-medicine">AI for Medicine Specialization</a>, available on Coursera. In college, I worked as a research assistant at the <a href="https://stanfordmlgroup.github.io/" target="_blank">Stanford ML Group</a>, publishing research at the intersection of AI and Medicine. I recieved my M.S. in Computer Science in March 2020 and my B.S. in Mathematics in June 2019, both from Stanford University.  My CV is available <a href="assets/Bora_resume_06232020.pdf">here</a>. Here's what I've been <a href="assets/reading.html">reading</a>. 
+ 
+        <br><br>
+         My email is bora.uyumazturk@gmail.com. I also have <a href="https://twitter.com/notsleepingturk">twitter</a>.
+         <br><br><br><br>
 
-      <p style=“margin-bottom: 0;”> contact me at bora.uyumazturk@gmail.com</p>
+        <h3> Publications and Presentations </h3>
+        <b>Impact of a deep learning assistant on the histopathologic classification of liver cancer</b>
+        <br/> with Amirhossein Kiani, Pranav Rajpurkar, Alex Wang, Robyn L. Ball, Rebecca Gao, Yifan Yu, Erik Jones, Curtis P. Langlotz, Brock Martin, Gerald J. Berry, Michael G. Ozawa, Florette K. Hazard, Ryanne A. Brown, Simon B. Chen, Mona Wood, Libby S. Allard, Lourdes, Ylagan , Andrew Y. Ng, Jeanne Shen
+        <br>
+        <br/><i/>npj Digital Medicine</i>, 3, (1), pages 1-8, February, 2020. Number: 1 Publisher: Nature Publishing Group.
+        <br>
+        <br/><i/>ML4H Workshop, NeurIPS 2019.</i>
+        <br>
+        <br/>In this paper, we developed a deep learning assistant for distinguishing between subtypes of primary liver carcinoma and evaluated it in a retrospective cross-over study involving eleven pathologists of different specialties and experience levels. We found that, despite the model itself having high accuracy on an independent test set, only nine of eleven pathologists experienced an improvement in accuracy (in fact, two pathologists performed worse). We found that pathologists on average performed four times better (in terms of odds ratio)  when the model provided the correct diagnosis than without the model. However, when the model provided the wrong diagnosis, they performed about a third as well as when they were on their own. These results suggest the potential presence of automation bias. We conclude that future research should explore effect of various design decisions on joint human-AI performance of deep learning-based diagnostic support systems.  
+        <br/>[<a href="https://www.nature.com/articles/s41746-020-0232-8", target="_blank">paper</a>] [<a href="https://arxiv.org/abs/1911.07372" target="_blank">extended abstract</a>] [<a href="https://github.com/stanfordmlgroup/lca-code", target="_blank">code</a>] 
+        <br>
+        <br><br>
+        <b>Consequences of Social Risk in Small and Moderately Sized Deliberative Democracies</b>
+        <br/>with Lilia Chang
+        <br>
+        <br/><i/><a href="https://www.radicalxchange.org/2019-conference/", target="_blank">RadicalxChange 2019</a></i>
+        <br>
+        <br/>We analyzed the voting behavior of indivudals participating in public, consensus voting schemes from a game theoretic perspective. We presented a model of public voting incorporating social pressures and proved the existence of an equilibrium in which truthfulness of votes decays as number of individuals increases in consensus voting. We then compared qualitative predictions from model with empirical evidence from a community at Stanford which implements consensus voting. Our findings suggest that instead of acting as a vehicle for change, public consensus voting may in fact reinforce status quo.
+        <br/>[<a href="assets/majority_minority.pdf">paper</a>]
+        <br><br>
 
-    </div>
+        <h3> Projects </h3>
+        <b>Functional Analysis of Wearable Data</b>
+        <br/>with Lilia Chang
+        <br>
+        <br/>In this project, we sought to extract important features from longitudinal wearable data using various functional data analysis techqniues. The methods we applied, the discrete fourier transform, PCA, nonnegative matrix factorization, and kmeans, were all variants of matrix factorization. We validated these methods on the downstream task of predicting resting heart rate of tracked subjects. We found that applying the DFT to data on a weekly timescale gave the best predictive performance, suggesting that regularity of activity patterns on longer time scales may help explain variation in patient fitness, even after accoutning for average activity levels. Finally, we discuss possible interpretations of different frequency components of the DFT as well as their implications for resting heart rate.
+        <br/>[<a href="assets/functional_wearable_analysis.pdf", target="_blank">paper</a>] [<a href="https://github.com/bora-uyumazturk/functional_wearable_analysis", target="_blank"</a>code</a>]
+        <br><br>
 
-  </body>
+        <h3>Notes (not intended for publication)</h3>
+        <b><a href="assets/deletion_codes.pdf">An Exploration of Worst Case Deletion Correcting Codes</a></b>
+        <br/>with Vasco Portilheiro
+        <br><br>
+
+        <h3>Frivolities</h3>
+        <b>teXt cOnVerTeR</b>
+        <br>
+        <br/>Web app for making text look funny. Simple little project I used to teach myself the basics of web dev.
+        <br/>[<a href="https://borauyumazturk.pythonanywhere.com">app</a>] [<a href="https://github.com/bora-uyumazturk/rEpoSitOrY">rEpoSitOrY</a>]
+        <br><br>
+    </body>
 </html>
