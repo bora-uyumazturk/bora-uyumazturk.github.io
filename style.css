@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html {
+  background-color: #f9f9f9;
+  font-weight: normal;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.55em;
+  background: #f9f9f9;
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem 2rem 0 2rem;
+  font-size: 20px;
+  align-items: center;
+}
+
+.Header-name {
+  font-size: 36px;
+  text-decoration: none;
+  color: black;
+  flex: 5;
+}
+
+.Header-name:hover {
+  font-weight: bolder;
+}
+
+.Header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 5;
+}
+
+.Header-nav > a {
+  text-decoration: none;
+  color: black;
+}
+
+.Header-nav > a:hover {
+  font-weight: bolder;
+  color: black;
+}
+
+.Header-social {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  font-size: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Content {
+  margin: 5rem 2rem 5rem 2rem;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 250px;
+  border: 1px solid black;
+  margin-top: 1em;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+.publication-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: normal;
+  color: #3F3CC2;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.social-icon {
+  width: 20px;
+  color: black;
+  margin-top: 10px;
+}
+
+.bio {
+  margin-right: 2rem;
+}
