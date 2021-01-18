@@ -1,6 +1,15 @@
 ---
 layout: default
+title: {{ page.title }}
 ---
-<p>{{ page.date }}</p>
-
-{{ content }}
+<div class = "Content">
+  <div class = "post">
+    <a class = 'postTitle' href="{{ page.url }}">{{ page.title }}</a>
+    <p class = 'postInfo'>
+      Date: {{ page.date | date: "%m-%d-%Y" }}
+    </p>
+    <p>
+      {{ content }}
+    </p>
+  </div>
+</div>
