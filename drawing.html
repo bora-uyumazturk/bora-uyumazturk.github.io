@@ -1,0 +1,22 @@
+---
+layout: default
+title: Drawings
+---
+<div class="Content">
+
+  <h2>Drawings</h2>
+
+  <p>
+    Here are a few sketches I've made over the years.
+  </p>
+
+  <ul class='drawings'>
+    {% for drawing in site.drawings reversed %}
+      <li>
+        <div class='drawingBox'>
+          <img class='drawing' src="assets/images/drawings/{{ drawing.src }}">
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

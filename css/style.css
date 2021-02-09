@@ -139,3 +139,16 @@ ul {
 .post {
   margin-bottom: 3em;
 }
+
+.drawingBox {
+  margin: 2.5em 2.5em 0em 0em;
+}
+
+.drawing {
+  max-width: 265px;
+}
+
+.drawings {
+  display: flex;
+  flex-wrap: wrap;
+}
